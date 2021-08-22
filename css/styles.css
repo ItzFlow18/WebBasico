@@ -1,0 +1,195 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/*Header*/
+.menu a{
+	text-decoration: none;
+	color: white;
+	padding: .1rem;
+	font-size: 11px;
+}
+
+.menu a:hover{
+	font-weight: bolder;
+	background-color: #DC4298;
+	padding: .1rem;
+}
+	body{
+	background-color:black;
+	font-family: 'Spartan', sans-serif;
+	height: 2100px;
+}
+
+header{
+	background-color: black;
+	width: 100vw;
+	height: 15vw;
+	position: fixed;
+
+}
+
+.container{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.container img{
+	width: 13vw;
+	margin: 10px;
+}
+
+.menu{
+	margin-right: 10px;
+	padding: 10px;
+
+}
+
+
+/*Main*/
+.container2{
+
+
+}
+
+.container2 img{
+	margin-left: 3.5%;
+	/*border: solid white;*/
+	margin-top: 20%;
+	width: 90vw;
+	transition: 1s linear;
+}
+
+
+
+h1{
+	margin-left: 3.5%;
+	margin-top: 5%;
+	width: 90vw;
+	/*border: solid white;*/
+	color: #DC4298;
+	font-size: 50px;
+	text-align: center;
+
+}
+
+p{
+	margin-left: 3.5%;
+	width: 90vw;
+	/*border: solid white;*/
+	color: white;
+	margin-top: 5%;
+	text-align: center;
+}
+
+
+
+.timeline {
+  margin-top: 10%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timestamp {
+  margin-bottom: 20px;
+  padding: 0px 15.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 100;
+  color: white;
+  text-align: center;
+}
+.status {
+  padding: 40px 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  transition: all 200ms ease-in;
+}
+.status h4 {
+  font-weight: 600;
+}
+.status:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  position: absolute;
+  top: -15px;
+  left: 42%;
+  transition: all 200ms ease-in;
+}
+
+.li.complete .status {
+  border-top: 2px solid #DC4298;
+}
+.li.complete .status:before {
+  background-color: white;
+  border: none;
+  transition: all 200ms ease-in;
+}
+.li.complete .status h4 {
+  color: #DC4298;
+}
+
+.aptitudes{
+	display: inline-flex;
+	padding: 20px;
+	margin-top: 2vw;
+	margin-left: 5vw;
+	height: 300px;
+	width: 450px;
+	background-image: url(../img/aptitudes.png);
+	background-size: 450px;
+}	
+
+.idioma{
+	display: inline-flex;
+	padding: 20px;
+	margin-top: 2vw;
+	margin-left: 5vw;
+	height: 300px;
+	width: 450px;
+	background-image: url(../img/idiomas.png);
+	background-size: 450px;
+}	
+/*Footer*/
+
+footer{
+  display: inline-flex;
+  background-color: black;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 15%;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.redes{
+	display: inline-flex;
+	width: 50%;
+	justify-content: space-between;
+
+}
+
+footer img{
+	margin: 1%;
+	/*border: solid black;*/
+	width: 10vw;
+
+}
+
+
